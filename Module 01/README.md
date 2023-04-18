@@ -38,7 +38,6 @@
   * Running in the compiler in `watch` mode for continous compilation
 * We saw how to configure the `VS Code Debugger` for work with our `node.js` project
 
-
 ## Typescript basics
 * We learned about the basic types of typescript
   * The 6 atomic types of javascript: `boolean`, `number`, `string`, `object`, `function` and `undefined`
@@ -48,7 +47,16 @@
   * Flexible object notation: `{[key: string]: number}` and the equivilent: `Record<string, number>`
   * Function notation: `(x: number, y: string) => boolean` 
 
-
+## Typescript deep dive
+* Using the `let` keyword
+* Defining Classes
+* Declaring constructors and initializing fields in the constructor signature
+* private, public and protected fields
+* Using interfaces
+* Typescript definition for **Type Safety** as "signature compatible"
+* Union Types
+* Cross Types
+* the `type` alias
 
 
 
