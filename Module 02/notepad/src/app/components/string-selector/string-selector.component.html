@@ -1,0 +1,7 @@
+<div [class.chosen]="item === selectedOption" 
+*ngFor="let item of options"
+(click)="onClickOnOption(item)"
+>{{item}}</div>
+<p>
+    Selected Index = {{indexOfSelected}}
+</p>

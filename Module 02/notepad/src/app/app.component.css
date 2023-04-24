@@ -1,7 +1,7 @@
 :host {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto 1fr;
 }
 
 .area {
@@ -13,32 +13,15 @@
     flex-direction: column;
 }
 
-.area > div {
-    border: 1px solid lightgrey;
-    border-radius: 5px;
-    margin: 4px;
-    padding: 3px;
-    font-size: 0.7em;
-    user-select: none;
-    cursor: pointer;
-    transition: 0.5s;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
-}
-
-.area > div:hover {
-    background-color: rgba(211, 211, 211, 0.63);
-    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.3);
-    transform: translateX(-3px) translateY(-3px);
-}
-
-.area > div.chosen {
-    background-color: rgba(144, 238, 144, 0.592);
-}
-
 .text.area {
     grid-column: 1 / -1;
     display: grid;
 }
+
+.area.title {
+    grid-column: 1 / -1;
+}
+
 
 textarea {
     resize: none;

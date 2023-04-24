@@ -26,4 +26,11 @@ export class AppComponent {
     this.selectedFont = value;
   }
 
+  reset(value: number) {
+    console.log('On Reset', value);
+    this.selectedColor = this.colors[0];
+    this.selectedFont= this.fonts[0];
+    this.selectedSize = this.sizes[0];
+  }
+
 }

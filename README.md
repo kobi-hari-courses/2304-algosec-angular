@@ -14,7 +14,6 @@ and also - through `Whatsapp`
     * [Description](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
     * [Solution Video](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
 
-
 # Links
 * [Typescript](https://www.typescriptlang.org/)
 * [Angular CLI](https://cli.angular.io/)

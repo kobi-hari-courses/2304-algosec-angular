@@ -1,22 +1,33 @@
+<div class="title area">
+  <app-title 
+    caption="Notepad App" 
+    [color]="selectedColor"
+    (pressed)="reset($event)"
+    ></app-title>
+</div>
+
 <div class="colors area">
-  <div [class.chosen]="item === selectedColor" 
-    *ngFor="let item of colors"
-    (click)="selectColor(item)"
-    >{{item}}</div>
+  <app-string-selector 
+      [options]="colors" 
+      [selectedOption]="selectedColor"
+      (selection)="selectColor($event)"
+  ></app-string-selector>
 </div>
 
 <div class="sizes area">
-  <div *ngFor="let item of sizes"
-    [class.chosen]="item===selectedSize"
-    (click)="selectSize(item)"
-  >{{item}}</div>
+  <app-string-selector 
+      [options]="sizes" 
+      [selectedOption]="selectedSize"
+      (selection)="selectSize($event)"
+  ></app-string-selector>
 </div>
 
 <div class="fonts area">
-  <div *ngFor="let item of fonts"
-    [class.chosen]="item===selectedFont"
-    (click)="selectFont(item)"
-  >{{item}}</div>
+  <app-string-selector 
+      [options]="fonts" 
+      [selectedOption]="selectedFont"
+      (selection)="selectFont($event)"
+  ></app-string-selector>
 </div>
 
 <div class="text area">
