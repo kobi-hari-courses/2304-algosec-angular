@@ -22,3 +22,8 @@ and also - through `Whatsapp`
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [NPM](https://www.npmjs.com/)
 * [Angular Docs](https://angular.io/)
+
+# CSS Games
+* [Flex Froggy](https://flexboxfroggy.com/)
+* [Grid Garden](https://cssgridgarden.com/)
+* [CSS Diner (Selectors)](https://flukeout.github.io/)
