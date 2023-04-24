@@ -1,0 +1,18 @@
+<div class="toolbar">
+    <input [disabled]="isBusy" #searchbox type="search" (input)="setKeyword(searchbox.value)">
+    <button [disabled]="isBusy" (click)="search()">Go!</button>
+    <img *ngIf="isBusy" src="assets/spinner.gif">
+</div>
+<hr>
+<ul>
+    <li *ngFor="let item of results; let i = index">{{i + 1}}.  {{item}}</li>
+</ul>
+
+
+<!--  Binding types 
+1. {{value}}: for element textual content
+2. [directive]="value": for setting properties (attributes) of elements by binding
+3. *directive="value": for structural directive
+4. (event)="handler()"
+
+-->
