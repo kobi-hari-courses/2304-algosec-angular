@@ -1,0 +1,16 @@
+:host {
+    display: flex;
+    flex-direction: row;
+
+}
+
+input {
+    max-width: 30px;
+}
+
+.service {
+    color: blue;
+    font-size: 0.8em;
+    margin-right: 8px;
+    width: 100px;
+}
