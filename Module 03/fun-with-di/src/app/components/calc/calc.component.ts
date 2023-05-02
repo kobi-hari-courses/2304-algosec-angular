@@ -1,5 +1,6 @@
 import { Component, Injector } from '@angular/core';
 import { AdditionService } from 'src/app/services/addition.service';
+import { WrongAdditionService } from 'src/app/services/wrong-addition.service';
 
 class A {
   i = 5;
@@ -14,7 +15,9 @@ class A {
 })
 export class CalcComponent {
 
-  constructor(public additionService: AdditionService){
+  constructor(
+    public additionService: AdditionService, 
+    public wrongAdditionService: WrongAdditionService){
 
   }
 

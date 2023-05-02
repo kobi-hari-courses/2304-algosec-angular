@@ -1,10 +1,11 @@
 import { Injectable } from "@angular/core";
 import { HistoryService } from "./history.service";
+import { Adder } from "./adder.interface";
 
 @Injectable({
     providedIn: 'root'
 })
-export class AdditionService {
+export class AdditionService implements Adder {
     id: number;
 
     constructor(private history: HistoryService) {
