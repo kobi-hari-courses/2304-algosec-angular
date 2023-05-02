@@ -7,6 +7,7 @@ and also - through `Whatsapp`
 # Daily Summaries
 * [Day 01 - JavaScript, NodeJS and Typescript](./Module%2001/README.md)
 * [Day 02 - Angular Components](./Module%2002/README.md)
+* [Day 03 - Dependency Injection, Promises and Http](./Module%2003/README.md)
 
 # Exercises
 * [Typescript](./Exercises/01.%20typescript/README.md)
@@ -21,6 +22,7 @@ and also - through `Whatsapp`
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [NPM](https://www.npmjs.com/)
 * [Angular Docs](https://angular.io/)
+* [json-server on npm](https://www.npmjs.com/package/json-server)
 
 # CSS Games
 * [Flex Froggy](https://flexboxfroggy.com/)

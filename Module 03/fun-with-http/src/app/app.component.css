@@ -1,0 +1,16 @@
+.joke {
+    border: 1px solid navy;
+    margin: 10px;
+}
+
+.question {
+    color: red;
+}
+
+.question::before {
+    content: 'Question: '
+}
+
+.answer {
+    color: green;
+}

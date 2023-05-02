@@ -1,0 +1,13 @@
+<h1>Our amazing Jokes app!</h1>
+<button (click)="getAllJokes()">Refresh</button>
+<button (click)="inc()">Next</button>
+<button (click)="dec()">Prev</button>
+<div>{{message}}</div>
+<hr>
+<div class="joke" *ngFor="let joke of jokes">
+    <ng-container *ngIf="joke.question">
+        <div class="question">{{joke.question}}</div>
+        <div class="answer">{{joke.answer}}</div>    
+    </ng-container>
+    <div class="text" *ngIf="!joke.question">{{joke.text}}</div>
+</div>
