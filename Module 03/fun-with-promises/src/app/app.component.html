@@ -1,0 +1,6 @@
+<button (click)="go()">GO!</button>
+
+<div class="promise-container" *ngIf="presentDiv">
+    <input type="number" #res>
+    <button (click)="resolvePromise(res.valueAsNumber)">Complete the promise</button>
+</div>
