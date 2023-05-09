@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'rx-colors'`, () => {
+  it(`should have as title 'fun-with-pipes'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('rx-colors');
+    expect(app.title).toEqual('fun-with-pipes');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('rx-colors app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('fun-with-pipes app is running!');
   });
 });
