@@ -1,0 +1,29 @@
+<h1>Directives</h1>
+<h2 highlight>Agenda</h2>
+
+<h1>Adom Ole</h1>
+
+<img src="https://images.pexels.com/photos/2893556/pexels-photo-2893556.jpeg?cs=srgb&dl=pexels-nicole-avagliano-2893556.jpg&fm=jpg">
+<img src="https://thumbs.dreamstime.com/b/ocean-palm-tree-tropical-sunset-sky-27060932.jpg">
+
+<app-blank [highlight]="colors[current]"></app-blank>
+
+
+<ul>
+  <li [highlight]="colors[current]" (vanished)="whenVanished($event)">What are directives</li>
+  <li class="x">Simple Example</li>
+  <li>Injecting Element Ref</li>
+  <li highlight="cyan">Using the Renderer</li>
+  <li>How not to use the renderer - Bindings</li>
+  <li class="x y">Host binding</li>
+  <li highlight>Host Listerner</li>
+  <li>Input</li>
+  <li class="y">Output</li>
+  <li>Special Syntax of inputs</li>
+  <li>What are those "Selectors" anyway</li>
+</ul>
+
+
+<input type="text">
+<input type="number">
+<input type="search">

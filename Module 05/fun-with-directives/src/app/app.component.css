@@ -1,0 +1,7 @@
+img {
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
+    border: 2px solid black;
+    margin: 10px;
+}
