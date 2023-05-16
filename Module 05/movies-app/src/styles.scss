@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+$primary: rgb(202, 246, 202);
+$primary-dark: darken($primary, 20%);
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: grid;
+}
+
+:root {
+    --primary: #{$primary};
+    --p-dark: #{$primary-dark};
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

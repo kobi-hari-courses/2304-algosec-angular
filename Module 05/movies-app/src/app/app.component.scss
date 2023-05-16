@@ -1,0 +1,36 @@
+
+:host {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--primary);
+        padding: 0 10px;
+
+        .seperator {
+            flex-grow: 1;
+        }
+
+        .user {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        a {
+            padding: 6px;
+            outline: 0px transparent;
+            cursor: pointer;
+            color: black;
+            text-decoration: none;
+
+            &.current {
+                background-color: var(--p-dark);
+            }
+
+        }
+    }
+}
+
