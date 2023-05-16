@@ -1,0 +1,27 @@
+<button (click)="toggleBlank()">Toggle Blank</button>
+
+<hr>
+
+<app-expander>
+    <span expander-header>Content Projection</span>
+    <app-blank *ngIf="hasBlank"></app-blank>
+
+    <button class="fancy" expander-toggle>
+        <span expander-open>Close</span>
+        <span expander-close>Open</span>
+    </button>
+
+    Hello World and how are you, welcome to my special class 
+    about content projection
+</app-expander>
+
+<hr>
+
+
+<app-expander>
+    <div expander-header>Summary of last night</div>
+    <h2>First Half</h2>
+    <p>Was not so good</p>
+    <h2>Second</h2>
+    <p>Was amazing</p>
+</app-expander>

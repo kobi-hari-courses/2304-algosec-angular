@@ -1,13 +1,19 @@
 <h1>Directives</h1>
 <h2 highlight>Agenda</h2>
 
-<h1>Adom Ole</h1>
+<div class="playground">
+  <div class="field" mouse-follow #coord="mouse"></div>
+  <div class="ball" [style.--x]="coord.x" [style.--y]="coord.y"></div>
+</div>
 
 <img src="https://images.pexels.com/photos/2893556/pexels-photo-2893556.jpeg?cs=srgb&dl=pexels-nicole-avagliano-2893556.jpg&fm=jpg">
 <img src="https://thumbs.dreamstime.com/b/ocean-palm-tree-tropical-sunset-sky-27060932.jpg">
 
-<app-blank [highlight]="colors[current]"></app-blank>
+<app-blank [highlight]="colors[current]" #bar></app-blank>
 
+<p>
+  {{coord.x}}, {{coord.y}}
+</p>
 
 <ul>
   <li [highlight]="colors[current]" (vanished)="whenVanished($event)">What are directives</li>

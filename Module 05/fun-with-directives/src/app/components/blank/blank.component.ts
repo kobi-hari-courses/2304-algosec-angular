@@ -9,4 +9,6 @@ export class BlankComponent {
   @Input()
   highlight: string = 'green';
 
+  pi = 3.14;
+
 }

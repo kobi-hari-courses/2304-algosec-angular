@@ -1,0 +1,7 @@
+<ng-container *ngIf="(expander?.isOpen ?? false)">
+    <ng-content select="[expander-open]"></ng-content>
+</ng-container>
+
+<ng-container *ngIf="!(expander?.isOpen ?? false)">
+    <ng-content select="[expander-close]"></ng-content>
+</ng-container>
